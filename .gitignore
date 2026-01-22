@@ -1,0 +1,18 @@
+# Python 
+__pycache__/ 
+*.pyc
+
+# Virtual environments 
+.venv/
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# OS 
+.DS_Store
+
+# pyenv 
+.python-version
+
+# Local datasets (from pybaseball) 
+data/raw
