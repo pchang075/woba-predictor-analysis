@@ -11,7 +11,7 @@ def store_batting_stats(season: int, raw: bool=True, clean: bool=False) -> None:
     """
     def clean_data(df: pandas.DataFrame) -> None:
         # Apply PA cutoff
-        df = df[df['PA'] >= 300]
+        df = df[df['PA'] >= 350]
 
         # Drop columns
         pitch_splits = ['FB% (Pitch)', 'SL%', 'CT%', 'CB%', 'CH%', 'SF%', 'KN%', 'XX%', 'PO%', 'FBv', 'SLv', 'CTv', 
