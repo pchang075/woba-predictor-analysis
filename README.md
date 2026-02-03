@@ -22,8 +22,8 @@ All data for this project is sourced from the [*pybaseball*](https://github.com/
 ## Project Status
 - [x] Identify data source
 - [x] Select target metric
-- [ ] Collect and clean data
-- [ ] Apply plate appearance threshold
+- [x] Collect and clean data
+- [x] Apply plate appearance threshold
 - [ ] Analyze metric stability and correlation
 - [ ] Create models and evaluate
 - [ ] Interpret and share results
